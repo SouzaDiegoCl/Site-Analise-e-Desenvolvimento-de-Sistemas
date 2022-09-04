@@ -1,0 +1,25 @@
+/*Navbar--- */
+.navbar .nav-item {
+    margin-left: 15px;
+}
+.navbar .nav-item {
+    padding: 5px 0px;
+    position: relative;
+}
+.navbar .nav-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+.navbar .nav-item.active::before,
+.navbar .nav-item:hover::before {
+    transform: scale(1);
+}
+/* ---Navbar*/
