@@ -2,10 +2,12 @@
 .navbar .nav-item {
     margin-left: 15px;
 }
+
 .navbar .nav-item {
     padding: 5px 0px;
     position: relative;
 }
+
 .navbar .nav-item::before {
     content: '';
     position: absolute;
@@ -18,8 +20,26 @@
     transition: all 0.5s ease;
     transform: scale(0);
 }
+
 .navbar .nav-item.active::before,
 .navbar .nav-item:hover::before {
     transform: scale(1);
 }
+
 /* ---Navbar*/
+
+/*Header--- */
+#header-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/header/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#header-title{
+    margin-top: 20vh;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
+/* ---Header*/
