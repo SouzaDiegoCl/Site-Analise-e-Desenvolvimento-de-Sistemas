@@ -28,9 +28,7 @@
 
 /* ---Navbar*/
 
-#wrapper {
-    position: relative;
-}
+
 
 /*Header--- */
 #header-image {
@@ -253,3 +251,60 @@
 /*Header cel--- */
 
 /* ---Header*/
+
+/*Sobre--- */
+#sobre {
+    position: relative;
+    background-color: #427bbd;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+#imagem_sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#img_sobre{
+        border-radius: 200px;
+        box-shadow: 10px 5px 2px #ffffff;
+}
+#centralizar_lista{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px black solid;
+    border-radius: 15px;
+    font-size: 18px;
+}
+/*---Sobre*/
+/*Como ingressar--- */
+#como_ingressar{
+    position: relative;
+    background-color: #1c1347;
+    padding: 50px;
+    color: #c3d0db;
+}
+#como_ingressar p{
+    margin-top: 25px;
+}
+#como_ingressar_titulo_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+#como_ingressar_titulo_img h2{
+    margin-bottom: 20px;
+}
+#como_ingressar_titulo_img img{
+    margin-top: -100px;
+    border-radius: 200px;
+    box-shadow: 10px 5px 2px #ffffff;
+}
+#imagem_como-ingressar{
+    
+}
+/*---Como ingressar*/
