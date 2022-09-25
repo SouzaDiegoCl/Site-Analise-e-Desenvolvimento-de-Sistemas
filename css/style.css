@@ -1,6 +1,6 @@
 /*Navbar--- */
 .navbar .nav-item {
-    margin-left: 15px;
+    margin-left: 17px;
 }
 
 .navbar .nav-item {
@@ -28,8 +28,12 @@
 
 /* ---Navbar*/
 
+#wrapper {
+    position: relative;
+}
+
 /*Header--- */
-#header-image{
+#header-image {
     width: 100%;
     height: 100vh;
     background-image: url("../img/header/background.jpg");
@@ -37,9 +41,215 @@
     background-position: center;
     background-size: cover;
 }
-#header-title{
-    margin-top: 20vh;
+
+#header-title {
+    margin-top: 23vh;
     padding-top: 20px;
-    padding-bottom:20px ;
+    padding-bottom: 20px;
 }
+
+#header-title h1 {
+    font-size: 40px;
+}
+
+#header-title h2 {
+    font-size: 25px;
+}
+
+/*Resumo--- */
+#container_resumo {
+    z-index: 2;
+    position: relative;
+    max-width: 900px;
+    min-width: 200px;
+    padding: 0;
+    background-color: #ffffff;
+    border-radius: 10px 10px 5px 5px;
+}
+
+#resumo_curso_title {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #165BAA;
+    border-radius: 10px 10px 5px 5px;
+}
+
+#resumo_curso_title h3 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 650;
+}
+
+#resumo_curso_content {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.card_resumo {
+    border: 1px solid #165BAA;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.card_resumo img {
+    width: 75px;
+    height: 75px;
+}
+
+.card_resumo h4 {
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.card_resumo p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ---Resumo*/
+/* ---Header texto*/
+#header_text {
+    z-index: 1;
+    position: relative;
+    background-color: #c3d0db;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+#texto_p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+@media (min-width:700px) {
+    #texto_p {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+}
+
+/*Header texto---*/
+/* ---Header cel*/
+
+.header-secunário-cel {
+    position: relative;
+    background-color: #165BAA;
+    min-width: 355px;
+    min-height: 180px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0px;
+    margin-bottom: 50px;
+}
+
+#cel-main {
+    position: relative;
+    width: 340px;
+    height: 150px;
+    background-color: #000000;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cel-main iframe {
+    width: 95%;
+    height: 90%;
+    border-radius: 2%;
+}
+
+.cel-top {
+    width: 0px;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cel-top-cam {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background-color: #000000;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.cel-top-linha {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-radius: 200px;
+    background-color: #000000;
+    margin-bottom: 50px;
+}
+
+.cel-bottom {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background-color: #000000;
+    border-radius: 50px;
+}
+
+@media (min-width:800px) {
+    .header-secunário-cel {
+        width: 750px;
+        height: 350px;
+        padding-left: 10px;
+        border-radius: 50px;
+        box-shadow: 20px 20px 5px #000000;
+
+    }
+
+    #cel-main {
+        width: 550px;
+        height: 300px;
+    }
+
+    .cel-top {
+        width: 30px;
+        height: 100%;
+    }
+
+    .cel-top-cam {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cel-top-linha {
+        width: 20px;
+        height: 150px;
+    }
+
+    .cel-bottom {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/*Header cel--- */
+
 /* ---Header*/
