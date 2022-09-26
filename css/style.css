@@ -259,17 +259,20 @@
     padding: 50px;
     padding-bottom: 150px;
 }
-#imagem_sobre{
+
+#imagem_sobre {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
 }
-#img_sobre{
-        border-radius: 200px;
-        box-shadow: 10px 5px 2px #ffffff;
+
+#img_sobre {
+    border-radius: 200px;
+    box-shadow: 10px 5px 2px #ffffff;
 }
-#centralizar_lista{
+
+#centralizar_lista {
     margin: 10px;
     display: flex;
     align-items: center;
@@ -279,32 +282,187 @@
     border-radius: 15px;
     font-size: 18px;
 }
+
 /*---Sobre*/
 /*Como ingressar--- */
-#como_ingressar{
+#como_ingressar {
     position: relative;
     background-color: #1c1347;
     padding: 50px;
     color: #c3d0db;
 }
-#como_ingressar p{
+
+#como_ingressar p {
     margin-top: 25px;
 }
-#como_ingressar_titulo_img{
+
+#como_ingressar_titulo_img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 100px;
 }
-#como_ingressar_titulo_img h2{
+
+#como_ingressar_titulo_img h2 {
     margin-bottom: 20px;
 }
-#como_ingressar_titulo_img img{
+
+#como_ingressar_titulo_img img {
     margin-top: -100px;
     border-radius: 200px;
     box-shadow: 10px 5px 2px #ffffff;
 }
-#imagem_como-ingressar{
-    
+
+/* ---Como ingressar*/
+
+/*curso--- */
+#curso {
+    position: relative;
+    background-color: #c3d0db;
+    padding: 50px;
+    color: #1c1347;
 }
-/*---Como ingressar*/
+
+/*Carousel: */
+.slider {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #06beb6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #48b1bf, #06beb6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+}
+
+.slider-card {
+    background-color: #ffffff;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgba(206, 191, 191, 0.493);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 50px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 50px !important;
+    z-index: 1;
+}
+
+/*Card cartificações */
+#card_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+#card_certificado {
+    background: white;
+    width: 240px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+#card_certificado:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.4s ease;
+}
+
+#card_certificado h2 {
+    padding: 5px;
+    font-size: 18px;
+}
+
+#card_certificado p {
+    font-size: 13px;
+    padding-bottom: 40px;
+}
+
+#card_certificado a {
+    background-color: #000000;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card-img {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-size: 100% 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.car-1{
+    background-image:url(../img/div_curso/certificados/itil-foundation.png) ;    
+}
+.car-2{
+    background-image:url(../img/div_curso/certificados/cissp.png) ;
+}
+.car-3{
+    background-image:url(../img/div_curso/certificados/oracle\ \(2\).png);
+}
+.car-4{
+    background-image:url(../img/div_curso/certificados/dell.png) ;
+}
+.car-5{
+    background-image:url(../img/div_curso/certificados/vmware.png) ;   
+}
+.car-6{
+    background-image:url(../img/div_curso/certificados/mcsd.png) ;   
+}
+.car-7{
+    background-image:url(../img/div_curso/certificados/ccie.png) ;   
+}
+.car-8{
+    background-image:url(../img/div_curso/certificados/pmp.png) ;   
+}
+/* ---curso*/
+
+/* mercado de trabalho---- */
+#mercado_trabalho{
+    position: relative;
+    background-color: #998ae6;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+/* ----mercado de trabalho*/
