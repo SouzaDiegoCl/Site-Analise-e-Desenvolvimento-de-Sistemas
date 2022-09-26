@@ -5,7 +5,6 @@ $(document).on('click', 'ul li', function () {
 /*---Navbar active link */
 
 /*Carousel faculdades--- */
-
 //Owlcarousel
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
