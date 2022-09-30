@@ -257,14 +257,27 @@
     position: relative;
     background-color: #427bbd;
     padding: 50px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#titulo-topico {
+    font-weight: 700;
+}
+
+
+#background-texto {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    color: #000000;
+    font-weight: 500;
 }
 
 #imagem_sobre {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
 }
 
 #img_sobre {
@@ -283,6 +296,9 @@
     font-size: 18px;
 }
 
+#perfil_ancora{
+        padding-top: 100px;
+}
 /*---Sobre*/
 /*Como ingressar--- */
 #como_ingressar {
@@ -373,6 +389,16 @@
     z-index: 1;
 }
 
+@media screen and (max-width:768px) {
+    #grade_curricular_linha2 {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
+
+
+
 /*Card cartificações */
 #card_wrapper {
     display: flex;
@@ -427,83 +453,100 @@
     background-size: 100% 100%;
     border-radius: 15px 15px 0px 0px;
 }
+
 .card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.car-1{
-    background-image:url(../img/div_curso/certificados/itil-foundation.png) ;    
+
+.car-1 {
+    background-image: url(../img/div_curso/certificados/itil-foundation.png);
 }
-.car-2{
-    background-image:url(../img/div_curso/certificados/cissp.png) ;
+
+.car-2 {
+    background-image: url(../img/div_curso/certificados/cissp.png);
 }
-.car-3{
-    background-image:url(../img/div_curso/certificados/oracle\ \(2\).png);
+
+.car-3 {
+    background-image: url(../img/div_curso/certificados/oracle\ \(2\).png);
 }
-.car-4{
-    background-image:url(../img/div_curso/certificados/dell.png) ;
+
+.car-4 {
+    background-image: url(../img/div_curso/certificados/dell.png);
 }
-.car-5{
-    background-image:url(../img/div_curso/certificados/vmware.png) ;   
+
+.car-5 {
+    background-image: url(../img/div_curso/certificados/vmware.png);
 }
-.car-6{
-    background-image:url(../img/div_curso/certificados/mcsd.png) ;   
+
+.car-6 {
+    background-image: url(../img/div_curso/certificados/mcsd.png);
 }
-.car-7{
-    background-image:url(../img/div_curso/certificados/ccie.png) ;   
+
+.car-7 {
+    background-image: url(../img/div_curso/certificados/ccie.png);
 }
-.car-8{
-    background-image:url(../img/div_curso/certificados/pmp.png) ;   
+
+.car-8 {
+    background-image: url(../img/div_curso/certificados/pmp.png);
 }
+
 /* ---curso*/
 
 /* mercado de trabalho---- */
-#mercado_trabalho{
+#mercado_trabalho {
     position: relative;
     background-color: #998ae6;
     padding: 50px;
     padding-bottom: 150px;
 }
-#imagem_mercado_trabalho img{
+
+#imagem_mercado_trabalho img {
     border-radius: 200px;
     box-shadow: 10px 5px 2px #ffffff;
     max-height: 300px;
 }
+
 /* ----mercado de trabalho*/
 
 /*footer--- */
-.rodapé_bloco_social_medias{
+.rodapé_bloco_social_medias {
     width: 200px;
     height: 150px;
     margin: auto;
 }
-.rodapé_bloco_social_medias img{
+
+.rodapé_bloco_social_medias img {
     width: 45px;
     height: 45px;
     background-color: #ffffff96;
     border-radius: 15%;
 }
-.rodapé_bloco_social_medias img{
+
+.rodapé_bloco_social_medias img {
     transition: all 0.2s linear;
     margin: 5px;
 }
-.rodapé_bloco_social_medias #footer_icon_github:hover{
+
+.rodapé_bloco_social_medias #footer_icon_github:hover {
     background-color: #ffffff;
     transform: scale(1.2);
 }
 
-.rodapé_bloco_social_medias #footer_icon_linkedin:hover{
+.rodapé_bloco_social_medias #footer_icon_linkedin:hover {
     background-color: #0077B5;
     transform: scale(1.2);
 }
-.rodapé_bloco_social_medias #footer_icon_instagram:hover{
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    
+
+.rodapé_bloco_social_medias #footer_icon_instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+
     transform: scale(1.2);
 }
+
 /* ---footer*
