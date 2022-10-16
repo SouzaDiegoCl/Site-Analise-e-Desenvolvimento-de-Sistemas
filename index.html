@@ -29,7 +29,7 @@
         <!-- header -->
         <header>
             <!-- navbar -->
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#0c0c0cc7 ;">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#0c0c0cea ;">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,20 +64,20 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item drop-item" href="#curso">Principais
+                                        <a class="dropdown-item" href="#curso">Nota de corte</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item drop-item" href="#faculdades">Principais
                                             Instituições</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="">Nota de corte</a>
+                                        <a class="dropdown-item" href="#grade-curricular">Grade Curricular</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="">Grade Curricular</a>
+                                        <a class="dropdown-item" href="#tipos-formacao">Tipos de Formação</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="">Tipos de Formação</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="">Certificações</a>
+                                        <a class="dropdown-item" href="#certificacoes">Certificações</a>
                                     </li>
                                 </ul>
                             </li>
@@ -86,11 +86,16 @@
                                     Mercado de Trabalho
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="#video" class="nav-link">
+                                    Vídeo
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <a href="" class="navbar-brand mb-0">
-                        <img class="d-inline-block align-top" src="img/header/icone_code_light.png" alt="DEV" width="50"
-                            height="50">
+                        <img class="d-inline-block align-top" src="img/header/icone_code_light.png" alt="DEV" width="40"
+                            height="40">
                     </a>
                 </div>
             </nav>
@@ -98,12 +103,11 @@
 
             <!-- header title/image --->
             <div class="p-5 text-center bg-image" id="header-image">
-                <div class="mask" id="header-title" style="background-color: #0c0c0ccb;">
+                <div class="mask rounded" id="header-title" style="background-color: #0c0c0cea;">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-white" id="title">
-                            <h1 class="mb-3">Análise e Desenvolvimento de Sistemas</h1>
-                            <h2 class="mb-3">Conheça mais sobre a Profissão</h2>
-                            <a class="btn btn-outline-light btn-lg" href="#!" role="button">Saiba Mais</a>
+                            <h1 class="mb-5 mt-3">Análise e Desenvolvimento de Sistemas</h1>
+                            <h2 class="mb-3">Conheça mais sobre a profissão</h2>
                         </div>
                     </div>
                 </div>
@@ -113,8 +117,8 @@
             <!-- header resumo/text/video --->
             <div id="header_text">
                 <div class="container-md" id="container_resumo">
-                    <div class="d-flex justify-content-left align-items-center" id="resumo_curso_title">
-                        <h3>Resumo do Curso</h3>
+                    <div class="d-flex justify-content-center align-items-center" id="resumo_curso_title">
+                        <h3>Curso</h3>
                     </div>
                     <div id="resumo_curso_content">
                         <div class="container">
@@ -157,28 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <p id="texto_p">
-                    O curso técnico de Análise e Desenvolvimento de Sistemas é encontrado em cerca de 400 faculdades por
-                    todo o país e tem uma formação focada totalmente na atuação do analista de sistemas, o que permite
-                    uma entrada mais fácil no mercado de trabalho. É considerado um curso muito específico, recomendado
-                    para quem quer se posicionar mais rapidamente na carreira.
-                </p>
-                <div class="header-secunário-cel">
-                    <div class="cel-top">
-                        <div class="cel-top-cam">
-                        </div>
-                        <div class="cel-top-linha">
-                        </div>
-                    </div>
-                    <div id="cel-main">
-                        <iframe src="https://www.youtube.com/embed/qBipTEqBSEM" title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="cel-bottom">
-                    </div>
-                </div>
+
                 <!-- end header resumo/text/video --->
             </div>
         </header>
@@ -187,7 +170,6 @@
         <!-- sobre -->
         <div id="sobre">
             <div class="container">
-
                 <h2 class="text-start mb-5 text-uppercase" id="titulo-topico"><i class="fa-solid fa-chevron-right"></i>
                     Sobre</h2>
                 <div class="row">
@@ -218,6 +200,13 @@
                         área de Tecnologia da Informação, uma vez que os profissionais também utilizam a tecnologia
                         e
                         seus dados como base para a criação e desenvolvimento dos programas computacionais. </p>
+                    <p>O curso técnico de Análise e Desenvolvimento de Sistemas é encontrado em cerca de 400 faculdades
+                        por
+                        todo o país e tem uma formação focada totalmente na atuação do analista de sistemas, o que
+                        permite
+                        uma entrada mais fácil no mercado de trabalho. É considerado um curso muito específico,
+                        recomendado
+                        para quem quer se posicionar mais rapidamente na carreira.</p>
                 </div>
 
                 <div class="mt-5 mb-0">
@@ -227,8 +216,7 @@
                     <div class="shadow-lg p-3" id="background-texto">
                         <p>Apesar de parecido com Sistemas de Informação, o curso de Análise e Desenvolvimento de
                             Sistemas oferece ao aluno uma experiência mais intensa na resolução prática de
-                            problemas. Os tipos de formação para o curso de Análise e Desenvolvimento de Sistemas
-                            são: tecnólogo e pós-graduação;</p>
+                            problemas.</p>
                         <p>Análise e Desenvolvimento de Sistemas é um dos ramos específicos situados dentro da vasta
                             e
                             diversa área da Tecnologia da Informação, que vai trabalhar mais prática e diretamente
@@ -259,17 +247,19 @@
                     <p>O analista de sistemas tem várias tarefas e deveres em uma empresa. Cumprir todas essas
                         exigências
                         demanda conhecimento profundo em tecnologia, além de habilidades complementares. Por isso, a
-                        carreira na área requer muito estudo e o desenvolvimento de várias aptidões em TI.</p>
+                        carreira na área requer <strong>muito estudo</strong> e o <strong>desenvolvimento de várias
+                            aptidões em TI.</strong></p>
                     <p>
                         Ao final do curso, a pessoa se qualifica para a criação de sistemas informatizados, com
                         conhecimento
-                        de programação dos mais diversos tipos e linguagens operacionais. Para isso, gostar de
-                        cálculos
+                        de programação dos mais diversos tipos e linguagens operacionais. Para isso, <strong>gostar de
+                            cálculos</strong>
                         e
-                        ter raciocínio rápido e lógico são fundamentais.
+                        <strong>ter raciocínio rápido e lógico</strong> são fundamentais.
                     </p>
                     <p>
-                        As principais características deste profissional são a proatividade e a flexibilidade, já
+                        As principais características deste profissional são a <strong>proatividade</strong> e a
+                        <strong>flexibilidade</strong>, já
                         que o atendimento ao usuário e às empresas fará parte do dia a dia.
                     </p>
                     <p>Outras características requeridas para um profissional de Análise e Desenvolvimento de
@@ -281,21 +271,21 @@
 
                 <div class="row">
                     <div class="col-md shadow-sm" id="centralizar_lista">
-                        <p class="badge  text-primary"><i class="fa-solid fa-check"></i> Manter-se atualizado
-                            tecnicamente </p>
+                        <p class="badge text-wrap "><i class="fa-solid fa-check"></i> Manter-se
+                            atualizado tecnicamente </p>
                     </div>
                     <div class="col-md shadow-sm " id="centralizar_lista">
-                        <p class="badge  text-primary"><i class="fa-solid fa-check"></i> Demonstrar raciocínio
+                        <p class="badge text-wrap"><i class="fa-solid fa-check"></i> Demonstrar raciocínio
                             lógico </p>
                     </div>
-
                 </div>
                 <div class="row">
                     <div class="col-md shadow-sm" id="centralizar_lista">
-                        <p class="badge  text-primary"><i class="fa-solid fa-check"></i> Ter iniciativa </p>
+                        <p class="badge text-wrap"><i class="fa-solid fa-check"></i> Ter iniciativa </p>
                     </div>
                     <div class="col-md shadow-sm" id="centralizar_lista">
-                        <p class="badge  text-primary"><i class="fa-solid fa-check"></i> Agir com paciência </p>
+                        <p class="badge text-wrap"><i class="fa-solid fa-check"></i> Agir com paciência
+                        </p>
                     </div>
                 </div>
             </div>
@@ -351,204 +341,262 @@
                     </p>
                 </div>
 
-                <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i
-                        class="fa-solid fa-angles-right"></i>Principais Instituições de Ensino:
-                </h3>
-                <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
-                    <p>As melhores faculdades segundo o MEC no território brasileiro que oferecem o curso de Análise e
-                        Desenvolvimento de Sistemas são:</p>
+                <div class="mt-5 mb-0">
+                    <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i class="fa-solid fa-angles-right"></i>
+                        Nota de corte:</h3>
                 </div>
-                <div id="carousel-container">
-                    <section id="slider" class="pt-5">
-                        <div class="container">
-                            <div class="slider">
-                                <div class="owl-carousel">
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/1-faculdades-ifba(corrigida).png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                    <p>No último ano, as notas de corte registradas para o curso de Análise e Desenvolvimento de
+                        Sistemas
+                        foram:</p>
+                </div>
+                <img src="img/div_curso/curso-notaDeCorte.png" style="margin: 100px;" class="img-fluid mx-auto d-block "
+                    alt="">
+
+                <div id="faculdades">
+                    <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i
+                            class="fa-solid fa-angles-right"></i>Principais Instituições de Ensino:
+                    </h3>
+                    <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                        <p>As melhores faculdades segundo o MEC no território brasileiro que oferecem o curso de Análise
+                            e
+                            Desenvolvimento de Sistemas são:</p>
+                    </div>
+                    <div id="carousel-container">
+                        <section id="slider" class="pt-5">
+                            <div class="container">
+                                <div class="slider">
+                                    <div class="owl-carousel">
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/1-faculdades-ifba(corrigida).png"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://portal.ifba.edu.br/ensino/nossos-cursos/superior/tecnologia-tecnologo"
+                                                    target="_blank" class="btn btn-primary">Saiba
+                                                    Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/2-faculdades-ufms(corrigida).png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/2-faculdades-ufms(corrigida).png"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://www.ufms.br/cursos/graduacao/?cursoId=1902"
+                                                    target="_blank" class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/3-faculdades-unicarioca(corrigida).jpg"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/3-faculdades-unicarioca(corrigida).jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://unicarioca.edu.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas"
+                                                    target="_blank" class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/4-faculdades-UniCesumar(corrigida).png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/4-faculdades-UniCesumar(corrigida).png"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://www.venhaparaunicesumar.com.br/graduacao/analise-e-desenvolvimento-de-sistemas"
+                                                    target="_blank" class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/5-faculdades-POLICAMP(corrigida).jpg"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/5-faculdades-POLICAMP(corrigida).jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="http://uniesp.edu.br/sites/policamp/curso.php?id_curso=277"
+                                                    target="_blank" class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/6-faculdades-UNESA(corrigida).png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/6-faculdades-UNESA(corrigida).png"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://portal.estacio.br/sejaparceiro/" target="_blank"
+                                                    class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/7-faculdades-IFSP(corrigida).png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/7-faculdades-IFSP(corrigida).png"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://spo.ifsp.edu.br/tads" target="_blank"
+                                                    class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="card slider-card shadow-lg">
-                                        <img src="img/div_curso/carousel/8-faculdades-UNIRUYWYDEN(corrigida).jpg"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body text-center">
-                                            <a href="#" class="btn btn-primary">Saiba Mais!</a>
+                                        <div class="card slider-card shadow-lg">
+                                            <img src="img/div_curso/carousel/8-faculdades-UNIRUYWYDEN(corrigida).jpg"
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body text-center">
+                                                <a href="https://inscricoes.uniruy.com.br/curso/analise-e-desenvolvimento-de-sistemas"
+                                                    target="_blank" class="btn btn-primary">Saiba Mais!</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </section>
+                    </div>
+                </div>
+                <div id="grade-curricular">
+                    <div>
+                        <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i
+                                class="fa-solid fa-angles-right"></i>
+                            Grade Curricular</h3>
+                    </div>
+                    <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                        <p>Grade Curricular é o conjunto de matérias que o aluno estudará durante o curso e pode variar
+                            dependendo da Faculdade escolhida. Este é um exemplo das disciplinas mais comuns encontradas
+                            no
+                            curso de Análise e Desenvolvimento de Sistemas:
+                        </p>
+                    </div>
+                    <div class="row" style="margin-top:40px;">
+                        <div class="col-md">
+                            <ul class="list-group">
+                                <li class="list-group-item">Processos de Negócio</li>
+                                <li class="list-group-item">Gerência de Projetos</li>
+                                <li class="list-group-item">Processo de Software</li>
+                                <li class="list-group-item">Engenharia de Requisitos</li>
+                                <li class="list-group-item">Banco de Dados</li>
+                                <li class="list-group-item">Algoritmos e Programação</li>
+                            </ul>
+                        </div>
+                        <div class="col-md text-center">
+                            <div>
+                                <img src="img/div_curso/Coding workshop-pana.png" id="img_gradeCurricular"
+                                    class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5" id="grade_curricular_linha2">
+                        <div class="col-md text-center">
+                            <div>
+                                <img src="img/div_curso/Thesis-pana (1).png" id="img_gradeCurricular" class="img-fluid"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col-md mb-5">
+                            <ul class="list-group">
+                                <li class="list-group-item">Manutenção de Software</li>
+                                <li class="list-group-item">Gerência de Configuração</li>
+                                <li class="list-group-item">Conceitos básicos de Sistemas Operacionais</li>
+                                <li class="list-group-item">Matemática</li>
+                                <li class="list-group-item">Legislação para Informática</li>
+                                <li class="list-group-item">Empreendedorismo</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tipos-formacao">
+                    <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i
+                            class="fa-solid fa-angles-right"></i>Tipos
+                        de Formação:</h3>
+                    <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                        <p><strong><i>Graduação / Ensino Superior:</strong></i> Tecnólogo, que é um
+                            curso
+                            de
+                            nível superior voltado para o mercado de trabalho. Também é conhecido como curso de
+                            tecnologia
+                            ou
+                            graduação tecnológica e tem duração menor que os cursos de bacharelado ou licenciatura</p>
+                    </div>
+                    <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                        <p><strong><i>Pós-Graduação:</strong></i> A especialização tem titulação lato sensu e pode ser
+                            encontrada
+                            tanto
+                            nas modalidades de ensino presencial, quanto EAD.</p>
+                    </div>
+                </div>
+
+                <div id="certificacoes">
+                    <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i
+                            class="fa-solid fa-angles-right"></i>Certificações Possíveis:</h3>
+                    <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                        <p>
+                            O mercado de trabalho tem sido cada vez mais competitivo, principalmente no ramo de TI, onde
+                            novas tecnologias surgem com frequência. E para gerar destaque no ramo, o aconselhado é
+                            possuir as chamadas certificações de TI.
+                        </p>
+                    </div>
+                    <div class="shadow-lg p-3 mb-5" id="background-texto-curso">
+                        <p>
+                            As certificações de TI são declarações formais emitidas por uma empresa que possua
+                            credibilidade, servindo para comprovar as habilidades de um determinado profissional sobre
+                            algum área de conhecimento tecnológico.
+                        <p>Como exemplo: softwares, processos, segurança da informação, entre outras áreas de
+                            conhecimento.</p>
+                        </p>
+                    </div>
+                    <section class="container" id="card_wrapper">
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-1"></div>
+                            <div class="card-content">
+                                <h2 class="card-title">Certificação ITIL</h2>
+                                <p>A certificação ITIL visa capacitar e certificar os profissionais, fazendo com que
+                                    ele
+                                    possa contribuir nas áreas de TI, na integração e entrega de soluções e
+                                    serviços.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-2"></div>
+                            <h2 class="card-title">Certificação CISSP</h2>
+                            <p>A Certified Information Systems Security Professional é uma das certificações de
+                                segurança
+                                mais reconhecidas no mercado mundial e atesta suas habilidades em segurança da
+                                informação de
+                                sistemas.</p>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-3"></div>
+                            <h2 class="card-title">Certificação Oracle</h2>
+                            <p>As Oracle Foundations Associate certifications fornecem evidências concretas de
+                                habilidades e
+                                conhecimentos práticos de Java programming e database.</p>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-4"></div>
+                            <h2 class="card-title">Certificação DELL EMC</h2>
+                            <p>A certificação Dell EMC lhe dá o reconhecimento que você merece para se desenvolver
+                                profissionalmente e verificar se você tem as habilidades necessárias para gerenciar
+                                e
+                                implantar com sucesso suas tecnologias.</p>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-5"></div>
+                            <h2 class="card-title">VMware VCP-Cloud</h2>
+                            <p>A VCP-DCV é uma certificação de nível intermediária da VMware</p>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-6"></div>
+                            <h2 class="card-title">Certificação MCSD</h2>
+                            <p>Esta certificação MCSD exige que você mostre um bom desempenho contínuo na área da
+                                solução
+                                que escolheu, completando um exame de recertificação a cada dois anos.</p>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-7"></div>
+                            <h2 class="card-title">CCIE</h2>
+                            <p>A certificação CCIE (Cisco Certified Internetworking Expert) é considerada a mais
+                                difícil
+                                do
+                                mundo e atesta o mais alto grau de conhecimento técnico sobre determinada tecnologia
+                                Cisco.
+                            </p>
+                        </div>
+                        <div class="card" id="card_certificado">
+                            <div class="card-img car-8"></div>
+                            <h2 class="card-title">Certificação PMP</h2>
+                            <p>É uma credencial emitida pelo PMI (Project Management Institute), que atesta que um
+                                profissional tem formação, experiência e conhece as práticas do PMBOK para gerenciar
+                                projetos</p>
                         </div>
                     </section>
                 </div>
-                <h3 class="text-center">Nota de corte:</h3>
-                <p>No último ano, as notas de corte registradas para o curso de Análise e Desenvolvimento de
-                    Sistemas
-                    foram:</p>
-                <img src="img/div_curso/curso-notaDeCorte.png" style="margin: 40px;" class="img-fluid mx-auto d-block "
-                    alt="">
-
-                <h3 class="text-center">Grade Curricular:</h3>
-                <p>Grade Curricular é o conjunto de matérias que o aluno estudará durante o curso e pode variar
-                    dependendo da Faculdade escolhida. Este é um exemplo das disciplinas mais comuns encontradas no
-                    curso de Análise e Desenvolvimento de Sistemas:
-                </p>
-
-                <div class="row" style="margin-top:40px;">
-                    <div class="col-md">
-                        <p>Processos de Negócio</p>
-                        <p>Gerência de Projetos</p>
-                        <p>Processo de Software</p>
-                        <p>Engenharia de Requisitos</p>
-                        <p>Análise e Projeto de Sistemas Orientados a Objetos</p>
-                        <p>Banco de Dados</p>
-                        <p>Algoritmos e Programação</p>
-                        <p>Verificação e Validação de Software</p>
-                    </div>
-                    <div class="col-md">
-                        <div>
-                            <img src="img/div_curso/Coding workshop-pana.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row" id="grade_curricular_linha2">
-                    <div class="col-md">
-                        <div>
-                            <img src="img/div_curso/Thesis-pana (1).png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <p>Manutenção de Software</p>
-                        <p>Gerência de Configuração</p>
-                        <p>Conceitos básicos de Redes de Computadores e Segurança da Informação</p>
-                        <p>Conceitos básicos de Sistemas Operacionais</p>
-                        <p>Conceitos básicos de Arquitetura de Computadores</p>
-                        <p>Matemática</p>
-                        <p>Legislação para Informática</p>
-                        <p>Empreendedorismo</p>
-                        <p>Aspectos gerais sobre ética e responsabilidade socioambiental na área da Tecnologia da
-                            Informação</p>
-                    </div>
-                </div>
-
-
-                <h3 class="text-center" style="margin-top: 30px;">Tipos de Formação:</h3>
-                <p style="margin-top: 30px;"><strong>Graduação / Ensino Superior:</strong> Tecnólogo, que é um curso
-                    de
-                    nível superior voltado para o mercado de trabalho. Também é conhecido como curso de tecnologia
-                    ou
-                    graduação tecnológica e tem duração menor que os cursos de bacharelado ou licenciatura</p>
-                <p><strong>Pós-Graduação:</strong> A especialização tem titulação lato sensu e pode ser encontrada
-                    tanto
-                    nas modalidades de ensino presencial, quanto EAD.</p>
-
-                <h3 class="text-center" style="margin-top: 30px;">Certificações Possíveis:</h3>
-
-                <section class="container" id="card_wrapper">
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-1"></div>
-                        <div class="card-content">
-                            <h2 class="card-title">Certificação ITIL</h2>
-                            <p>A certificação ITIL visa capacitar e certificar os profissionais, fazendo com que ele
-                                possa contribuir nas áreas de TI, na integração e entrega de soluções e serviços.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-2"></div>
-                        <h2 class="card-title">Certificação CISSP</h2>
-                        <p>A Certified Information Systems Security Professional é uma das certificações de
-                            segurança
-                            mais reconhecidas no mercado mundial e atesta suas habilidades em segurança da
-                            informação de
-                            sistemas.</p>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-3"></div>
-                        <h2 class="card-title">Certificação Oracle</h2>
-                        <p>As Oracle Foundations Associate certifications fornecem evidências concretas de
-                            habilidades e
-                            conhecimentos práticos de Java programming e database.</p>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-4"></div>
-                        <h2 class="card-title">Certificação DELL EMC</h2>
-                        <p>A certificação Dell EMC lhe dá o reconhecimento que você merece para se desenvolver
-                            profissionalmente e verificar se você tem as habilidades necessárias para gerenciar e
-                            implantar com sucesso suas tecnologias.</p>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-5"></div>
-                        <h2 class="card-title">VMware VCP-Cloud</h2>
-                        <p>A VCP-DCV é uma certificação de nível intermediária da VMware</p>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-6"></div>
-                        <h2 class="card-title">Certificação MCSD</h2>
-                        <p>Esta certificação MCSD exige que você mostre um bom desempenho contínuo na área da
-                            solução
-                            que escolheu, completando um exame de recertificação a cada dois anos.</p>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-7"></div>
-                        <h2 class="card-title">CCIE</h2>
-                        <p>A certificação CCIE (Cisco Certified Internetworking Expert) é considerada a mais difícil
-                            do
-                            mundo e atesta o mais alto grau de conhecimento técnico sobre determinada tecnologia
-                            Cisco.
-                        </p>
-                    </div>
-                    <div class="card" id="card_certificado">
-                        <div class="card-img car-8"></div>
-                        <h2 class="card-title">Certificação PMP</h2>
-                        <p>É uma credencial emitida pelo PMI (Project Management Institute), que atesta que um
-                            profissional tem formação, experiência e conhece as práticas do PMBOK para gerenciar
-                            projetos</p>
-                    </div>
-                </section>
             </div>
         </div>
         <!-- end curso -->
@@ -556,53 +604,91 @@
         <!-- mercado de trabalho-->
         <div id="mercado_trabalho">
             <div class="container">
-                <div class="row" id="como_ingressar_titulo_img">
+                <div class="row mt-5 mb-5" id="como_ingressar_titulo_img">
                     <div class="col-lg">
-                        <h2 class="text-start">Mercado de Trabalho</h2>
-                        <h3 class="text-center">O que faz o profissional de Análise e Desenvolvimento de Sistemas?
+                        <h2 class="text-start mb-5 text-uppercase" id="titulo-topico"><i
+                                class="fa-solid fa-chevron-right"></i> Mercado de Trabalho</h2>
+                        <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i
+                                class="fa-solid fa-angles-right"></i> O que faz o profissional de Análise e
+                            Desenvolvimento de Sistemas?
                         </h3>
-                        <p>O analista de desenvolvimento de sistemas cria sistemas e aplicações, determinando
-                            interface
-                            gráfica, critérios de navegação, montagem da estrutura de banco de dados e codificação
-                            de
-                            programas. Também projeta, implanta e realiza manutenção de sistemas e aplicações. Esse
-                            profissional seleciona recursos de trabalho, como metodologias de desenvolvimento de
-                            sistemas, linguagem de programação e ferramentas de desenvolvimento. Com a
-                            informatização de
-                            praticamente todos os setores da economia, a presença do profissional de Análise e
-                            Desenvolvimento de Sistemas tornou-se imprescindível. No mercado de trabalho, ele pode
-                            atuar
-                            em empresas do setor público e privado, como empresas de Tecnologia de Informação (TI) e
-                            de
-                            telecomunicações. Para ter sucesso na área, é fundamental se manter atualizado sobre as
-                            linguagens de programação e os ambientes operacionais.</p>
                     </div>
                     <div id="imagem_mercado_trabalho" class="col-md" style=" display:flex;justify-content:center;">
                         <img src="img/div_mercTrabalho/mesclar-curso-mercTrabalho.png" class="img-fluid float"
                             alt="Working">
                     </div>
                 </div>
-                <h3 class="text-center">Onde o profissional de Análise e Desenvolvimento de Sistemas pode trabalhar?
+                <div class="shadow-lg p-3 mb-5" id="background-texto">
+                    <p>O analista de desenvolvimento de sistemas cria sistemas e aplicações, determinando
+                        interface
+                        gráfica, critérios de navegação, montagem da estrutura de banco de dados e codificação
+                        de
+                        programas. Também projeta, implanta e realiza manutenção de sistemas e aplicações. Esse
+                        profissional seleciona recursos de trabalho, como metodologias de desenvolvimento de
+                        sistemas, linguagem de programação e ferramentas de desenvolvimento.</p>
+                </div>
+                <div class="shadow-lg p-3 mb-5" id="background-texto">
+                    <p>O analista de desenvolvimento de sistemas cria sistemas e aplicações, determinando
+                        interface
+                        gráfica, critérios de navegação, montagem da estrutura de banco de dados e codificação
+                        de
+                        programas. Também projeta, implanta e realiza manutenção de sistemas e aplicações. Esse
+                        profissional seleciona recursos de trabalho, como metodologias de desenvolvimento de
+                        sistemas, linguagem de programação e ferramentas de desenvolvimento. Com a
+                        informatização de
+                        praticamente todos os setores da economia, a presença do profissional de Análise e
+                        Desenvolvimento de Sistemas tornou-se imprescindível. No mercado de trabalho, ele pode
+                        atuar
+                        em empresas do setor público e privado, como empresas de Tecnologia de Informação (TI) e
+                        de
+                        telecomunicações. Para ter sucesso na área, é fundamental se manter atualizado sobre as
+                        linguagens de programação e os ambientes operacionais.</p>
+                </div>
+                <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i class="fa-solid fa-angles-right"></i> Onde
+                    o profissional de Análise e Desenvolvimento de Sistemas pode trabalhar?
                 </h3>
-                <p>
-                    O profissional de Análise e Desenvolvimento de Sistemas trabalha em atividades de informática e
-                    áreas correlatas, além das possibilidades de atuação em diversas áreas econômicas. Normalmente,
-                    é
-                    empregado com carteira assinada, mas pode atuar também como autônomo. As atividades
-                    profissionais
-                    são realizadas em horários irregulares, em ambiente fechado. Ele trabalha individualmente e com
-                    supervisão ocasional, podendo, eventualmente, atuar em equipe. Em algumas ocupações, é possível
-                    o
-                    trabalho a distância.
-                </p>
-                <h3 class="text-center">
+                <div class="shadow-lg p-3 mb-5" id="background-texto">
+                    <p>
+                        O profissional de Análise e Desenvolvimento de Sistemas trabalha em atividades de informática e
+                        áreas correlatas, além das possibilidades de atuação em diversas áreas econômicas. Normalmente,
+                        é
+                        empregado com carteira assinada, mas pode atuar também como autônomo. As atividades
+                        profissionais
+                        são realizadas em horários irregulares, em ambiente fechado. Ele trabalha individualmente e com
+                        supervisão ocasional, podendo, eventualmente, atuar em equipe. Em algumas ocupações, é possível
+                        o
+                        trabalho a distância.
+                    </p>
+                </div>
+                <h3 class="text-start mb-5 text-uppercase" id="subtitulos"><i class="fa-solid fa-angles-right"></i>
                     Quanto ganha um profissional de Análise e Desenvolvimento de Sistemas?
                 </h3>
-                <p>O salário médio de um Analista de Sistemas no Brasil é de R$ 4.348,45.</p>
+                <div class="shadow-lg p-3" id="background-texto">
+                    <p>O salário médio de um Analista de Sistemas no Brasil é de R$ 4.348,45.</p>
+                </div>
             </div>
         </div>
         <!-- end mercado de trabalho-->
 
+        <!--Vídeo-->
+        <div id="video">
+            <div class="cel mt-5">
+                <div class="cel-top">
+                    <div class="cel-top-cam">
+                    </div>
+                    <div class="cel-top-linha">
+                    </div>
+                </div>
+                <div id="cel-main">
+                    <iframe src="https://www.youtube.com/embed/qBipTEqBSEM" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="cel-bottom">
+                </div>
+            </div>
+        </div>
+        <!--end Vídeo-->
         <!-- footer -->
         <footer class="container-fluid text-white" style="overflow:hidden">
             <div class="bubbles">
@@ -642,61 +728,66 @@
                 <span style="--i:18;"><i>&lt;html&gt;</i></span>
                 <span style="--i:16;"><i>&lt;head&gt;</i></span>
             </div>
-            <div class="row pt-5 pb-5">
-
-                <section class="col-md-5">
-                    <h5>Menu</h5>
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Sobre</a>
-                        </li>
-                        <li>
-                            <a href="#">Perfil</a>
-                        </li>
-                        <li>
-                            <a href="#">Ingressar</a>
-                        </li>
-                        <li>
-                            <a href="#">Curso</a>
-                        </li>
-                        <li>
-                            <a href="#">Mercado de Trabalho</a>
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="col-md-5">
-                    <h5>Contato</h5>
-                    <ul>
-                        <li>
-                            <a href="tel:+55 13111111111">Tel: 9 9999-9999</a>
-                        </li>
-                        <li>
-                            <a href="#">Email: souzadiegocl@gmail.com</a>
-                        </li>
-                    </ul>
-                </section>
-
-                <div class="rodapé_bloco_social_medias" id="rodapé_bloco_3">
-                    <ul>
-                        <a href="https://github.com/SouzaDiegoCl" target="_blank"><img id="footer_icon_github"
-                                src="img/footer/icone_footer/github-brands.svg" alt="GitHub Icon"></a>
-
-                        <a href="https://www.linkedin.com/in/diego-souza-333120232/" target="_blank"><img
-                                id="footer_icon_linkedin" src="img/footer/icone_footer/linkedin-brands.svg"
-                                alt="Linkedin Icon"></a>
-
-                        <a href="https://www.instagram.com/s0uza_diego/" target="_blank"><img id="footer_icon_instagram"
-                                src="img/footer/icone_footer/instagram-brands.svg" alt="Instagram Icon"></a>
-                    </ul>
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <section class="col-md">
+                        <h5>Menu</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#">Perfil</a>
+                            </li>
+                            <li>
+                                <a href="#">Ingressar</a>
+                            </li>
+                            <li>
+                                <a href="#">Curso</a>
+                            </li>
+                            <li>
+                                <a href="#">Mercado de Trabalho</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="col-md">
+                        <h5>Contato</h5>
+                        <ul>
+                            <li>
+                                <a href="tel:+55 13111111111">Tel: 9 9999-9999</a>
+                            </li>
+                            <li>
+                                <a href="#">Email: souzadiegocl@gmail.com</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="rodapé_bloco_social_medias col-md">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/SouzaDiegoCl" target="_blank"><img id="footer_icon_github"
+                                        src="img/footer/icone_footer/github-brands.svg" alt="GitHub Icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/diego-souza-333120232/" target="_blank"><img
+                                        id="footer_icon_linkedin" src="img/footer/icone_footer/linkedin-brands.svg"
+                                        alt="Linkedin Icon"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/s0uza_diego/" target="_blank"><img
+                                        id="footer_icon_instagram" src="img/footer/icone_footer/instagram-brands.svg"
+                                        alt="Instagram Icon"></a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
             </div>
         </footer>
         <!-- end footer-->
     </div>
+    <!-- end wrapper -->
 </body>
 
 </html>
