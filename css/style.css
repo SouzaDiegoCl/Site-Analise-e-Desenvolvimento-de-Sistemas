@@ -1,11 +1,17 @@
 /*geral*/
 
+
 #titulo-topico {
     font-weight: 700;
 }
 
 #subtitulos {
     font-weight: 600;
+}
+
+body {
+    background: rgb(97,128,236);
+background: linear-gradient(0deg, rgba(97,128,236,1) 40%, rgba(126,151,238,1) 50%, rgba(173,192,255,1) 85%, rgba(233,236,242,1) 100%);
 }
 
 body h1 {
@@ -82,13 +88,14 @@ header h2 {
 #header_text {
     z-index: 1;
     position: relative;
-    background-color: #65648C;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
     padding: 50px;
+
+
 }
 
 /*Resumo--- */
@@ -281,10 +288,11 @@ header h2 {
 /*Sobre--- */
 #sobre {
     position: relative;
-    background-color: #b8c4e9;
     padding: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
+
+
 }
 
 
@@ -317,7 +325,6 @@ header h2 {
 }
 
 #perfil {
-    background-color: #38358C;
     position: relative;
     padding: 50px;
     padding-top: 100px;
@@ -335,9 +342,8 @@ header h2 {
 /*Como ingressar--- */
 #como_ingressar {
     position: relative;
-    background-color: #1c1347;
     padding: 50px;
-    color: #c3d0db;
+    color: #ffffff;
     padding-top: 100px;
 
 
@@ -359,7 +365,6 @@ header h2 {
 /*curso--- */
 #curso {
     position: relative;
-    background-color: #b5d7f3;
     padding: 50px;
     color: #1c1347;
     padding-top: 100px;
@@ -552,7 +557,6 @@ header h2 {
 /* mercado de trabalho---- */
 #mercado_trabalho {
     position: relative;
-    background-color: #998ae6;
     padding: 50px;
     padding-bottom: 150px;
 }
@@ -567,7 +571,6 @@ header h2 {
 
 /* video---- */
 #video {
-    background-color: #1f1e1f;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -620,7 +623,18 @@ header h2 {
         transform: translateY(-20vh) scale(1);
     }
 }
+#footer-itens ul{
+    list-style:none;
 
+}
+#footer-itens a{
+    color: #000000;
+    
+    text-decoration: underline #000000;
+}
+.footer-background{
+    background-color: rgb(132, 151, 221);
+}
 .rodapé_bloco_social_medias {
     display: flex;
     flex-direction: column;
