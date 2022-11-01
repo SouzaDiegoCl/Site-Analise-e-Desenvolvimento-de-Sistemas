@@ -10,8 +10,8 @@
 }
 
 body {
-    background: rgb(97,128,236);
-background: linear-gradient(0deg, rgba(97,128,236,1) 40%, rgba(126,151,238,1) 50%, rgba(173,192,255,1) 85%, rgba(233,236,242,1) 100%);
+    background: rgb(113, 145, 255);
+    background: linear-gradient(0deg, rgba(113, 145, 255, 1) 20%, rgba(128, 155, 255, 1) 40%, rgba(148, 171, 255, 1) 61%, rgba(173, 192, 255, 1) 80%, rgba(227, 232, 242, 1) 100%);
 }
 
 body h1 {
@@ -623,18 +623,22 @@ header h2 {
         transform: translateY(-20vh) scale(1);
     }
 }
-#footer-itens ul{
-    list-style:none;
+
+#footer-itens ul {
+    list-style: none;
 
 }
-#footer-itens a{
+
+#footer-itens a {
     color: #000000;
-    
+
     text-decoration: underline #000000;
 }
-.footer-background{
+
+.footer-background {
     background-color: rgb(132, 151, 221);
 }
+
 .rodapé_bloco_social_medias {
     display: flex;
     flex-direction: column;
