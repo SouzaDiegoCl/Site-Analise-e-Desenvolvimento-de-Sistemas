@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conteudo>
+    <postagem codigo="1">
+        <titulo>Volkswagen oferece curso gratuito de programação</titulo>
+        <corpo>Fundação Grupo VW abre 64 vagas para curso gratuito de Programação. Aulas serão realizadas pelo SENAI-SP e curso terá mentoria com profissionais da Volkswagen.
+        </corpo>
+        <corpo_2>
+            O mercado de Tecnologia da Informação é um dos mais aquecidos em todo o mundo, e no Brasil não é diferente. De acordo com pesquisa publicada pela Associação Brasileira das Empresas de Tecnologia da Informação e Comunicação (Brasscom) em dezembro de 2021, a demanda por esses profissionais é crescente, devendo chegar a 797 mil vagas até 2025. Por outro lado, o déficit anual de profissionais deve superar a cifra de 100 mil.
+        </corpo_2>
+        <corpo_3>
+            Com o objetivo de formar jovens e adultos em situação de vulnerabilidade socioeconômica em conteúdos de programação (coding) e desenvolvimento, a Fundação Grupo Volkswagen está lançando o projeto CO.DE School: Academia de Programação e Desenvolvimento. A iniciativa irá priorizar pessoas pertencentes a grupos minorizados (mulheres, pretos, pardos, indígenas, pessoas com deficiência e pessoas da comunidade LGBTQIA+), além daquelas com menor renda familiar per capita. Serão oferecidas 64 vagas, em duas turmas.
+        </corpo_3>
+        <corpo_4>
+            “A Fundação Grupo Volkswagen tem a mobilidade social como uma de suas causas prioritárias de atuação. Ao mesmo tempo, a procura por profissionais de TI é uma realidade em todos os setores econômicos, situação que deve se ampliar nos próximos anos. Por isso, idealizamos o projeto CO.DE School, pelo qual vamos incentivar a empregabilidade de jovens e adultos de comunidades vulneráveis, com um olhar especialmente atento à diversidade e à inclusão”, explica Douglas Pereira, Presidente do Conselho de Curadores da Fundação Grupo Volkswagen e Vice-Presidente de Recursos Humanos da Volkswagen do Brasil e Região América do Sul.
+        </corpo_4>
+        <corpo_5>
+            Com duração aproximada de 13 meses, as formações, realizadas pelo SENAI-SP, serão 100% presenciais, gratuitas, e acontecerão de segunda a sexta-feira, no período noturno (das 19h às 22h), nas instalações da Escola SENAI Paulo Skaf. A unidade está localizada em São Caetano do Sul (SP), a poucos metros da Estação da CPTM. As aulas têm início previsto para fevereiro de 2023 e o curso está dividido nos seguintes módulos obrigatórios:
+
+            • Programação Full Stack (carga horária de 600 horas)
+
+            • Java para Mobile Android (carga horária de 40 horas)
+
+            • Kotlin para Mobile Android (carga horária de 60 horas)
+        </corpo_5>
+        <corpo_6>
+         “O conteúdo do curso foi totalmente construído a partir das contribuições de profissionais da Volkswagen do Brasil, Volkswagen Caminhões e Ônibus e Volkswagen Financial Services, empresas do Grupo VW que fazem parte da governança da Fundação. Além disso, dezenas de colaboradoras e colaboradores se voluntariaram para atuar na mentoria durante o projeto. Esse time vai acompanhar as alunas e os alunos e apresentar desafios para serem resolvidos ao longo da jornada formativa. Com isso, queremos estar próximos desse time de talentos”, concluiu Douglas.
+        </corpo_6>        
+        <corpo_7>
+        </corpo_7>
+        <corpo_8>
+        </corpo_8>
+        <corpo_9>
+        </corpo_9>
+        <corpo_10>
+        </corpo_10>
+        <imagem fileName="img_a.jpg">volkswagen.jpg</imagem>
+    </postagem>
+    <postagem codigo="2">
+        <titulo>'Se jogue porque vale a pena': as histórias de programadores que trabalham fora do Brasil</titulo>
+        <corpo>
+        Profissionais de TI contam experiências e como foram selecionados para empregos no exterior.
+        </corpo>
+        <corpo_2>
+            Akari Ueda diz que aproveitou o máximo que a faculdade tinha a oferecer. Durante os cinco anos de ciências da computação, fez projetos de iniciação científica, monitoria, foi voluntária e participou de maratonas de programação (os chamados hackathons).
+        </corpo_2>
+        <corpo_3>
+            Poucos meses depois da formatura, a engenheira de software de 25 anos participou de um programa de recrutamento para universitários da Microsoft e atualmente trabalha como programadora no Canadá.
+        </corpo_3>
+        <corpo_4>
+           "Eu não queria sair do Brasil, mas a curiosidade de morar fora e a situação do país pesaram na decisão. Me mudei para Vancouver em agosto de 2021", conta a engenheira de software.
+        </corpo_4>
+        <corpo_5>
+            A dica que Akari dá para os profissionais que buscam oportunidades semelhantes é reforçar o currículo e o portfólio com qualidades que você possa provar.
+        </corpo_5>
+        <corpo_6>
+            "Não basta só escrever 'sou proativo', isso qualquer um pode escrever. Você demonstra ser proativo através das suas experiências. Participe de eventos, de hackathons, faça projetos voluntários, mostre com ações. Com a parte técnica é a mesma coisa, escrever que você sabe uma linguagem de programação não prova nada. Você precisa ter projetos e experiências usando aquela linguagem", explica Akari.
+        </corpo_6>        
+        <corpo_7>
+            De entregador a desenvolvedor em 1 ano
+        </corpo_7>
+        <corpo_8>
+            Entregador de comida, pizzaiolo, caixa de mercado. Durante a pandemia, Matheus Heck, de 27 anos, teve todas essas profissões enquanto fazia um curso de gestão de indústrias criativas em Berlim, na Alemanha.
+        </corpo_8>
+        <corpo_9>
+        Formado em rádio e TV, Heck esperava voltar ao Brasil e trabalhar com a produção de conteúdo. Só que, durante o curso, ele teve mais contato com o mundo da programação e foi conquistado pela área.
+
+        A possibilidade de trabalhar de forma remota e a garantia de emprego são outros dois diferenciais do campo de TI, segundo o engenheiro de software.
+        </corpo_9>
+        <corpo_10>
+        "Produção não tinha vaga nunca, era superdifícil. [Em programação], depois que você está empregado em uma empresa com visibilidade, o LinkedIn não para, dá para escolher", conta o programador.
+
+        Heck diz que se interessava por programação antes de decidir que essa seria sua carreira e que acelerou os estudos com ajuda de dois cursos intensivos e que, no total, estudou cerca de um ano até conseguir um emprego na área.
+
+        Há sete meses, Matheus trabalha em uma startup de recrutamento da Holanda – ele conta que se mudou para Rotterdam e tem planos de longo prazo para a carreira na Europa.
+        </corpo_10>
+        <imagem fileName="img_b.jpg">programadoresBrasileiros.jpg</imagem>
+    </postagem>
+    
+    <postagem codigo="3">
+        <titulo>Engenheiro e arquiteto de software: as profissões mais disputadas da tecnologia</titulo>
+        <corpo>
+            Construir e desenvolver novos programas é o desafio de milhares de empresas de tecnologia que buscam a inovação em um mercado cada vez mais competitivo.
+
+            Não à toa, os engenheiros e arquitetos de software estão entre as profissões mais disputadas atualmente. Afinal, esses especialistas em TI são capazes de tirar projetos e até startups do papel.
+
+        </corpo>
+        <corpo_2>    
+            Além do grande leque de oportunidades, as posições abertas para esses profissionais contam com planos de carreira estruturados e bons salários a partir de R$4.800,00, segundo o site Glassdoor.
+
+            Para ingressar nessas áreas, uma especialização da Pós PUCPR Digital pode ser o caminho. Conheça a diferença entre os cargos e veja qual mais tem a ver com você:
+        </corpo_2>
+        <corpo_3>
+            O que faz um engenheiro de software?
+        </corpo_3>
+        <corpo_4>
+            Na área da TI, o engenheiro de software é o profissional responsável por projetar, desenvolver e implementar a solução proposta junto aos demais programadores da equipe.
+
+            Focado no negócio, esse especialista também tem a função de gerenciar processos, garantindo qualidade e produtividade na execução das atividades pelo time.
+
+            
+        </corpo_4>
+        <corpo_5>
+             Além disso, o engenheiro é quem faz a ponte entre o líder e os programadores na execução de uma ação, oficializando a entrega. Geralmente, sua formação acadêmica engloba Engenharia da Computação, Ciências da Computação, ou uma pós na área.
+        </corpo_5>
+        <corpo_6>
+             E o que faz um arquiteto de software?           
+        </corpo_6>        
+        <corpo_7>
+             Dentro da área de tecnologia vamos ter também o arquiteto de software, o profissional responsável por colocar em prática o planejamento e as diretrizes desenhadas para o projeto.    
+        </corpo_7>
+        <corpo_8>
+            O arquiteto é quem aplica todas as decisões técnicas do projeto, resolvendo problemas e gerindo riscos durante o desenvolvimento, na busca de segurança e escalabilidade dos produtos.
+
+            Sua formação normalmente inclui uma graduação em Ciência da Computação, Sistema de Informação ou outras áreas relacionadas à tecnologia.
+        </corpo_8>
+        <corpo_9>
+            Qual é o perfil dos especialistas que trabalham com software?
+        </corpo_9>
+        <corpo_10>
+            Embora atuem em níveis diferentes dentro de um projeto, tanto um engenheiro como um arquiteto, tem perfis comportamentais semelhantes quando o assunto é tecnologia.
+
+            Com um perfil analítico, voltado para negociações e relacionamento com os colegas, o profissional da tecnologia deve ter: boa comunicação, resiliência, proatividade, senso crítico, criatividade e senso de liderança.
+        </corpo_10>
+        <imagem fileName="img_c.jpg">arquitetosSoftware.jpg</imagem>
+    </postagem>
+</conteudo>
