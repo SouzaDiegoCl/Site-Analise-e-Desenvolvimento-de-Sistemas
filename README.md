@@ -13,5 +13,5 @@
 
 ## Exemplo - Execução do projeto:  
 ### Home Page 
-<img src='imgs/homePage.png' width='900'></img>
+<img src='img/home_page_img.png' width='900'></img>
 
